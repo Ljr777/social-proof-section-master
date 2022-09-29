@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.soft-pink-font {
+  color: hsl(333, 80%, 67%);
+}
+.dark-magenta-font {
+  color: hsl(300, 43%, 22%);
+}
+.dark-magenta-color {
+  background-color: hsl(300, 43%, 22%);
+}
+.grayish-magenta-font {
+  color: hsl(303, 10%, 53%);
+}
+.light-gray-font {
+  background-color: hsl(300, 24%, 96%);
+}
+.white-font {
+  color: hsl(0, 0%, 100%);
+}
+.white-background {
+  background-color: hsl(0, 0%, 100%);
+}
+/* .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+} */

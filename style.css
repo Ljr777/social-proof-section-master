@@ -1,0 +1,34 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  min-height: 100vh;
+  font-family: "League Spartan", sans-serif;
+  /* margin-left: 12rem;
+  margin-right: 12rem; */
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 5rem;
+  row-gap: 5rem;
+  margin-left: 12rem;
+  margin-right: 12rem;
+}
+.cta {
+}
+.ratings {
+  justify-self: end;
+}
+.testimonials {
+  grid-column: 1/-1;
+  gap: 5rem;
+}
+article {
+  padding: 2rem;
+}
+article img {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+}
