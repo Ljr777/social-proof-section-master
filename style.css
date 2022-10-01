@@ -7,6 +7,8 @@ body {
   font-size: 1.5rem;
   background-image: url("./images/bg-pattern-top-desktop.svg"),
     url("./images/bg-pattern-bottom.svg");
+  background-position: top left, bottom right;
+  background-repeat: no-repeat, no-repeat;
 }
 .container {
   padding: 8rem 12rem;
@@ -17,6 +19,8 @@ body {
 }
 .top-grid {
   width: 100%;
+  gap: 120px;
+  align-items: center;
 }
 .cta {
   width: 70%;
@@ -26,7 +30,6 @@ body {
 .ratings {
   width: 80%;
   max-width: 60rem;
-  justify-items: center;
 }
 .cta-heading {
   font-size: 5rem;
@@ -42,23 +45,24 @@ body {
 }
 
 .ratings-style {
-  /* justify-content: space-between; */
   background-color: hsl(300, 24%, 96%);
   padding: 1.5rem 3.2rem;
   border-radius: 0.8rem;
   font-weight: 700;
 }
 .reviews {
-  justify-self: start;
+  margin-right: 8rem;
+  width: 41rem;
 }
 .report-guru {
+  width: 41.5rem;
+  margin-left: 4rem;
 }
 .best-tech {
-  justify-self: end;
+  width: 41rem;
+  margin-left: 8rem;
 }
-.star-gap {
-  gap: 4rem;
-}
+
 .testimonials {
   gap: 5rem;
 }
@@ -77,8 +81,6 @@ body {
   line-height: 1.4;
   font-weight: 500;
   font-size: 1.5rem;
-}
-article {
 }
 .testimonial-img {
   width: 4rem;
