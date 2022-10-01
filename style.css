@@ -8,7 +8,7 @@ body {
   background-image: url("./images/bg-pattern-top-desktop.svg"),
     url("./images/bg-pattern-bottom.svg");
   background-position: top left, bottom right;
-  background-repeat: no-repeat, no-repeat;
+  background-repeat: no-repeat;
 }
 .container {
   padding: 8rem 12rem;
