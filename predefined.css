@@ -7,7 +7,31 @@
   display: flex;
   flex-direction: row;
 }
-
+.column {
+  display: flex;
+  flex-direction: column;
+}
+.column-gap-10 {
+  gap: 1rem;
+}
+.vr-centre {
+  align-items: center;
+}
+.hr-centre {
+  justify-content: space-between;
+}
+.verified {
+  margin-top: 0.5rem;
+}
+.grid {
+  display: grid;
+}
+.grid-column-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid-column-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
 .soft-pink-font {
   color: hsl(333, 80%, 67%);
 }
@@ -18,7 +42,6 @@
   background-color: hsl(300, 43%, 22%);
 }
 .grayish-magenta-font {
-  color: hsl(303, 10%, 53%);
 }
 .light-gray-font {
   background-color: hsl(300, 24%, 96%);
@@ -29,6 +52,7 @@
 .white-background {
   background-color: hsl(0, 0%, 100%);
 }
+
 /* .attribution {
   font-size: 11px;
   text-align: center;
